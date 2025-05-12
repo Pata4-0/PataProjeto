@@ -91,3 +91,42 @@ header {
 #footer h2{
   font-weight: normal;
 }
+
+/* Seção 1 */
+
+#secao-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0 0 4rem;
+}
+
+#div-secao-1{
+  max-width: 430px;
+}
+
+#div-secao-1 h2{
+  font-size: 2rem;
+  font-weight: normal;
+  color: #37CC81;
+}
+
+#div-secao-1 p{
+  font-size: 1.2rem;
+  max-width: 380px;
+}
+
+.destaque-rosa{
+  color: #F2B4DD;
+}
+
+.botao-saiba-mais{
+  border: 2px solid #626262;
+  font-family: Poppins;
+  color: white;
+  border-radius: 15px;
+  background: #37CC81;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+}
