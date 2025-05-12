@@ -56,6 +56,12 @@ header {
   color: #A1E897;
 }
 
+#map {
+  height: 500px;
+  width: 100%;
+  margin: 40px auto;
+}
+
   /* Responsividade */
 
   @media screen and (max-width: 1180px){
