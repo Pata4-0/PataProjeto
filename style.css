@@ -104,6 +104,8 @@ header {
 
 #div-secao-1{
   max-width: 430px;
+  display: grid;
+  gap: 15px;
 }
 
 #div-secao-1 h2{
@@ -129,4 +131,20 @@ header {
   background: #37CC81;
   font-size: 1.1rem;
   padding: 10px 30px;
+  justify-self: start;
 }
+
+.botao-saiba-mais:hover{
+  background: #fff;
+  color: #80BF90;
+}
+
+  /* Responsividade */
+
+  @media screen and (max-width: 1180px){
+    #secao-1{
+      justify-content: center;
+      padding: 1rem 0 1rem 0;
+      gap: 2rem;
+    }
+  }
