@@ -53,6 +53,7 @@ header {
 }
 
 #header-menu a:hover{
+  transition: 0.3s;
   color: #A1E897;
 }
 
@@ -62,7 +63,7 @@ header {
   margin: 40px auto;
 }
 
-  /* Responsividade */
+  /* Responsividade header*/
 
   @media screen and (max-width: 1180px){
     header{
@@ -132,6 +133,7 @@ header {
 .botao-saiba-mais{
   border: 2px solid #626262;
   font-family: Poppins;
+  font-weight: bold;
   color: white;
   border-radius: 15px;
   background: #37CC81;
@@ -141,11 +143,12 @@ header {
 }
 
 .botao-saiba-mais:hover{
+  transition: 0.3s;
   background: #fff;
   color: #80BF90;
 }
 
-  /* Responsividade */
+  /* Responsividade Saiba mais*/
 
   @media screen and (max-width: 1180px){
     #secao-1{
@@ -154,3 +157,231 @@ header {
       gap: 2rem;
     }
   }
+
+/* Seção como ajudar */
+
+#secao-como-ajudar{
+  padding: 2.5rem 4rem 0 4rem;
+  background: #80BF90;
+  color: #fff;
+}
+
+.secao-como-ajudar-subtitulo{
+  text-align: center;
+}
+
+.flex-container-como-ajudar{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.secao-como-ajudar-lista li{
+  max-width: 390px;
+}
+
+.secao-como-ajudar-lista li + li{
+  margin-top: 1rem;
+}
+
+.secao-como-ajudar-botao{
+  border: 2px solid #626262;
+  font-weight: bold;
+  font-family: Poppins;
+  color: #37CC81  ;
+  border-radius: 15px;
+  background: fff;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  justify-self: start;
+  margin-top: 2rem;
+}
+
+.secao-como-ajudar-botao:hover{
+  transition: 0.3s;
+  background: #37CC81;
+  color: #fff
+}
+
+/* Seção seja um voluntário */
+
+#secao-seja-um-voluntario{
+  display: grid;
+  gap: 1.5rem;
+  justify-content: center;
+  justify-items: center;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.secao-seja-um-voluntario-subtitulo{
+  color: #37CC81;
+}
+
+.secao-seja-um-voluntario-paragrafo{
+  text-align: center;
+  color: #7C7272;
+  max-width: 550px;
+}
+
+.lista-tipo-voluntario li+li{
+  margin-top: 1.75rem;
+}
+
+.grid-tipo-voluntario{
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: auto 1fr;
+  justify-items: start;
+}
+
+.titulo-tipo-voluntario{
+  color: #37CC81;
+  font-weight: normal;
+  text-align: start;
+}
+
+.paragrafo-tipo-voluntario{
+  color: #7C7272;
+  text-align: start;
+  max-width: 500px;
+}
+
+.secao-voluntario-botao{
+  border: 2px solid #626262;
+  font-weight: bold;
+  font-family: Poppins;
+  color: #fff;
+  border-radius: 15px;
+  background: #37CC81;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  justify-self: start;
+  margin-top: 2rem;
+}
+
+.secao-voluntario-botao:hover{
+  transition: 0.3s;
+  background: #fff;
+  color: #80BF90;
+}
+
+  /* Responsividade Seja um voluntário*/
+
+  @media screen and (max-width: 1180px){
+    #secao-seja-um-voluntario{
+      gap: 2.5rem;
+    }
+  }
+
+
+/* Seção depoimentos */
+
+#secao-depoimentos{
+  padding: 2.5rem 4rem 4rem 4rem;
+  background: #80BF90;
+  color: #626262;
+}
+
+.secao-depoimentos-titulo{
+  text-align: center;
+  color: #fff;
+}
+
+.lista-depoimentos{
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.depoimento{
+  padding: 1.5rem;
+  max-width: 350px;
+  border-radius: 1.8rem;
+  background: #FAFAFA;
+}
+
+.container-depoimento{
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.texto-depoimento{
+  margin-top: 1.3rem;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+  /* Responsividade depoimentos*/
+  
+    @media screen and (max-width: 790px){
+      .lista-depoimentos{
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+  }
+
+
+
+/* Seção contato */
+
+#secao-contato{
+  padding: 4rem;
+}
+
+.titulo-secao-contato{
+  text-align: center;
+  color: #37CC81;
+}
+
+.flex-container-contatos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.lista-contato li+li{
+  margin-top: 1.2rem;
+}
+
+.flex-container-contato{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.flex-container-contato:hover{
+  transition: 0.3s;
+  color: #37CC81;
+}
+
+.logo-reciclapet-contatos{
+  width: 400px;
+}
+
+  /* Responsividade contato */
+
+  @media screen and (max-width: 1180px){
+    .flex-container-contatos{
+    gap: 2rem;
+    }
+  }
+
+/* Seção pontos de coleta */
+
+#secao-pontos-de-coleta{
+  padding: 4rem;  
+  background: #80BF90;
+}
+
+.titulo-pontos-de-coleta{
+  text-align: center;
+  color: #fff;
+}
