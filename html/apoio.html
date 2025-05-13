@@ -1,64 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ReciclaPet</title>
-  <link rel="icon" type="image/x-icon" href="../assets/img/logo.svg">
-  <link rel="stylesheet" href="../css/apoio.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reciclapet</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo.svg">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
   <header>
-    <div class="container">
-      <img src="../assets/img/logo.svg" alt="Logo ReciclaPet" class="logo" />
-      <nav>
-        <ul>
-          <li><a href="#">Saiba mais</a></li>
-          <li><a href="#">Como ajudar</a></li>
-          <li><a href="#">Seja um voluntário</a></li>
-          <li><a href="#">Depoimentos</a></li>
-          <li><a href="#">Contato</a></li>
-          <li><a href="../html/coleta.html">Pontos de coleta</a></li>
-        </ul>
-      </nav>
-    </div>
+    <a class="logo-container" href="index.html"><img id="logo-header-menu" src="../assets/img/logo.svg" alt="Reciclapet"></a>
+    <nav>
+      <ul id="header-menu">
+        <a href="#"><li>Sobre nós</li></a>
+        <a href="../html/apoio.html"><li>Como apoiar</li></a>
+        <a href="#"><li>Seja um voluntário</li></a>
+        <a href="#"><li>Depoimentos</li></a>
+        <a href="#"><li>Contato</li></a>
+        <a href="../html/coleta.html"><li>Pontos de coleta</li></a>
+      </ul>
+    </nav>
   </header>
 
-  <section class="apoio">
-    <div class="apoio-text">
-      <h1>Junte-se a Quem Transforma <br><span>Tampinhas em Vidas Salvas!</span></h1>
-      <p>Ajude juntando tampinhas, entregando em nossos pontos de coleta, divulgando nosso trabalho ou contribuindo com doações via PIX. Cada gesto conta!</p>
-    </div>
-    <div class="apoio-img">
-      <img src="../assets/img/cat-apoio.png" alt="Gato manta" />
-    </div>
-  </section>
+ <section class="secao-2">
+  <div class="imagem-com-fundo">
+    <img src="../assets/img/cat-apoio.png" alt="Gato com tampinhas">
 
-  <section class="ajuda">
+    <div id="div-secao-2">
+      <h2>
+        <span class="linha-topo">Junte-se a Quem Transforma</span><br>
+        <strong><span class="destaque-rosa">Tampinhas em Vidas Salvas!</span></strong>
+      </h2>
+      <p>
+        Ajude juntando tampinhas, entregando em nossos pontos de coleta, divulgando nosso trabalho ou contribuindo com doações via PIX. Cada gesto conta!
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="secao-ajuda">
+  <div class="conteudo-ajuda">
     <h2>Escolha Como Quer Ajudar</h2>
-    <p>
-      Ajudar é mais simples do que parece e faz toda a diferença
-       para os animais que mais precisam. Com apenas alguns minutos, 
-       você pode escolher a forma que mais combina com você: seja recolhendo tampinhas,
-        ajudando na divulgação do nosso trabalho, oferecendo um lar temporário ou contribuindo
-         com doações. Basta clicar no botão abaixo para acessar o formulário e nos contar como deseja 
-         colaborar. Juntos, transformamos pequenos gestos em grandes mudanças!
-    </p>
-    <a href="#" class="botao-ajudar">Começar a Ajudar</a>
-    <p class="pix-info">
-      Um pequeno gesto seu pode representar uma nova chance para um animal abandonado. Com apenas alguns reais via PIX, você nos ajuda a custear castrações, resgate e cuidados básicos. Doe com amor!
-    </p>
-    <img src="qrcode-pix.png" alt="QR Code para doação via PIX" class="qrcode" />
-  </section>
 
-  <footer>
-    <p>ReciclaPet © Todos os direitos reservados.<br><span>desenvolvido com carinho em conjunto com os voluntários digitais</span></p>
-    <div class="icones">
-      <img src="iconeinsta" alt="Instagram">
-      <img src="iconezap" alt="WhatsApp">
-      <img src="iconeemail" alt="Email">
-    </div>
+    <p>
+      Ajudar é mais simples do que parece e faz toda a diferença para os 
+      animais que mais precisam. Com apenas alguns minutos, você pode 
+      escolher a forma que mais combina com você: seja recolhendo 
+      tampinhas, ajudando na divulgação do nosso trabalho, oferecendo 
+      um lar temporário ou contribuindo com doações.
+      Basta clicar no botão abaixo para acessar o formulário e nos contar como deseja 
+      colaborar. Juntos, transformamos pequenos gestos em grandes mudanças!
+      </p>
+
+
+    <button class="btn-ajudar">Começar a Ajudar</button>
+
+    <p class="doe-com-amor">
+      Um pequeno gesto seu pode representar uma nova chance para um 
+      animal abandonado. Com apenas alguns reais via PIX, você nos ajuda 
+      a custear castrações, ração e cuidados básicos. 
+    </p>
+
+    <p class="doe-com-amor">Doe com amor:</p>
+    <img class="qrcode" src="../assets/img/qr-code.png" alt="QR Code para doação">
+  </div>
+</section>
+
+  <footer id="footer">
+    <h2>Reciclapet © Alguns direitos reservados.</h2>
+    <p>Desenvolvido pelos alunos da turma B do Com.domínio digital 4.0 2025.1.</p>
+    <ul id="footer-social-links">
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
   </footer>
-</body>
+
+  <body>
+    <script src="../js/script.js"></script>
+  </body>
 </html>

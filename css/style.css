@@ -145,6 +145,126 @@ header {
   color: #80BF90;
 }
 
+<<<<<<< HEAD
+=======
+/* Seção 2  tela de apoio*/
+
+.secao-2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.imagem-com-fundo {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  overflow: hidden;
+}
+
+.imagem-com-fundo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#div-secao-2 {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  max-width: 650px;
+  padding: 25px;
+}
+
+#div-secao-2 h2 {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #2F2F2F;
+  line-height: 0.6;
+}
+
+#div-secao-2 .linha-topo {
+  display: block;
+  color: #2F2F2F;
+}
+
+#div-secao-2 .destaque-rosa {
+  color: #F2B4DD;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+#div-secao-2 p {
+  font-size: 1.3rem;
+  color: #2F2F2F;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+.imagem-topo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.secao-ajuda {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.conteudo-ajuda {
+  max-width: 600px;
+  text-align: center;
+  color: #000000;
+}
+
+.conteudo-ajuda h2 {
+  font-size: 1.5rem;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.conteudo-ajuda p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.btn-ajudar {
+  margin: 20px 0;
+  padding: 8px 16px;
+  background: #ffffff;
+  color: #37CC81;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.0rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border: 1px solid #626262;
+  font-family: Poppins;
+}
+
+.btn-ajudar:hover {
+  background-color: #37CC81;
+  color: #ffffff;
+}
+
+.doe-com-amor {
+  font-weight: Poppins;
+  text-align: left;
+}
+
+
+.qrcode {
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+}
+>>>>>>> 4d6362f (Tela de apoio completo)
   /* Responsividade */
 
   @media screen and (max-width: 1180px){
