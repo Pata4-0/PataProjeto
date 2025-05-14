@@ -93,7 +93,7 @@ function onLocalizacaoErro(error) {
 }
 
 function desenharRotaComORS(origem, destino) {
-    const url = "https://api.openrouteservice.org/v2/directions/foot-walking/geojson";
+    const url = "https://api.openrouteservice.org/v2/directions/driving-car/geojson";
 
     const body = {
         coordinates: [
