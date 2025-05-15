@@ -68,7 +68,7 @@ header {
     width: 100%;
    
 }
-@media (min-width: 1080px) {
+@media (min-width: 1240px) {
     #banner-sobrenos{ 
         height: 80%;
         width: 80%;
@@ -138,6 +138,42 @@ header {
     width: 100%;
     height: auto;
     
+}
+
+
+.sobre-nos-2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 80px 100px;
+}
+@media (min-width: 1080px) {
+    .sobre-nos-2 {
+        padding: 80px 200px; 
+    }
+}
+@media (min-width: 1500px) {
+    .sobre-nos-2 {
+        padding: 80px 500px; 
+    }
+}
+@media (max-width: 500px) {
+    .sobre-nos-2 {
+        padding: 60px 50px; 
+    }
+}
+
+.p-titulo{
+    font-family: Poppins, Regular, sans-serif;
+    font-size: 28px;
+    
+}
+.sobre-nos-2 h2{
+    font-size: 18px;
+}
+
+.sobre-nos-2 a{
+    text-decoration: underline;
 }
 
 
