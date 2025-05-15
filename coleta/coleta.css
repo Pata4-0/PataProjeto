@@ -1,0 +1,275 @@
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: Poppins, Arial, sans-serif;
+  line-height: 1.4;
+  height: 100%;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header */
+
+#logo-header-menu{
+  max-height: 60px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background-color: whitesmoke;
+}
+
+#header-menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: whitesmoke;
+}
+
+#header-menu a{
+  padding: 5px 10px;
+}
+
+#header-menu a:hover{
+  color: #A1E897;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin: 40px auto;
+}
+
+  /* Responsividade */
+
+  @media screen and (max-width: 1180px){
+    header{
+      display: grid;
+      justify-content: center;
+      padding: 10px 60px;
+    }
+
+    .logo-container {
+      margin: auto;
+    }
+
+    #header-menu{
+      margin-top: 2rem;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      background-color: whitesmoke;
+    }
+  }
+
+
+/* Footer */
+
+#footer{
+  padding: 30px 15px;
+  text-align: center;
+  background: #A1E897;
+  color: #626262;
+}
+
+#footer h2{
+  font-weight: normal;
+}
+
+/* Seção 1 */
+
+#secao-1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0 0 4rem;
+}
+
+#div-secao-1{
+  max-width: 430px;
+  display: grid;
+  gap: 15px;
+}
+
+#div-secao-1 h2{
+  font-size: 2rem;
+  font-weight: normal;
+  color: #37CC81;
+}
+
+#div-secao-1 p{
+  font-size: 1.2rem;
+  max-width: 380px;
+}
+
+.destaque-rosa{
+  color: #F2B4DD;
+}
+
+.botao-saiba-mais{
+  border: 2px solid #626262;
+  font-family: Poppins;
+  color: white;
+  border-radius: 15px;
+  background: #37CC81;
+  font-size: 1.1rem;
+  padding: 10px 30px;
+  justify-self: start;
+}
+
+.botao-saiba-mais:hover{
+  background: #fff;
+  color: #80BF90;
+}
+
+  /* Responsividade */
+
+  @media screen and (max-width: 1180px){
+    #secao-1{
+      justify-content: center;
+      padding: 1rem 0 1rem 0;
+      gap: 2rem;
+    }
+  }
+#pontosdecoleta{
+    background-color: #A1E897;
+    color: white;
+    flex-wrap: wrap;
+
+}
+.recife{
+    width: 300px;
+    height: 200px;
+}
+#final{
+    padding: 30px 15px;
+    text-align: center;
+    color: #626262;
+  }
+  
+  #final h2{
+    font-weight: normal;
+  }
+.letreiro {
+    color: #37CC81;
+    font-size: 50px;
+    font-family: 'poppins';
+}
+#jaboatao {
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.container {
+padding: 60px;
+max-width: 1800px;
+margin: auto;
+background-color: #80BF90;
+}
+
+h1 {
+text-align: center;
+font-size: 2.5em;
+color: black;
+margin-bottom: 40px;
+}
+
+.icon {
+font-size: 1em;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 30px;
+}
+
+.card1 {
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card3 {
+background-color: white;
+border-radius: 10px;
+padding: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card4 {
+background-color: white;
+border-radius: 10px;
+padding: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 100%;
+grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.card h2 {
+margin-top: 0;
+color: #2e5d3c;
+}
+
+ul {
+list-style: none;
+padding-left: 0;
+}
+
+li {
+margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.copy {
+cursor: pointer;
+}
+
+.ver-mais {
+display: inline-block;
+margin-top: 10px;
+color: #c999c9;
+font-size: 0.9em;
+text-decoration: none;
+}
+.grid2 {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 55px;
+flex: 1 1 200px;
+}

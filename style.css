@@ -143,6 +143,7 @@ header {
 }
 
 .botao-saiba-mais:hover{
+  cursor: pointer;
   transition: 0.3s;
   background: #fff;
   color: #80BF90;
@@ -212,6 +213,7 @@ header {
 }
 
 .secao-como-ajudar-botao:hover{
+  cursor: pointer;
   transition: 0.3s;
   background: #37CC81;
   color: #fff
@@ -289,6 +291,7 @@ header {
 }
 
 .secao-voluntario-botao:hover{
+  cursor: pointer;
   transition: 0.3s;
   background: #fff;
   color: #80BF90;
