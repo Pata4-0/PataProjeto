@@ -2,19 +2,21 @@ const GH_API_KEY = "cd44629d-657e-4406-90b0-38b0cfd42d21";
 const caminho = window.location.pathname;
 const map = L.map("map").setView([0, 0], 2);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
-    attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
-    subdomains: 'abcd',
-    maxZoom: 20
+// L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+//     attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+//     subdomains: 'abcd',
+//     maxZoom: 20
+// }).addTo(map);
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19
 }).addTo(map);
 
-console.log(caminho)
 if (caminho.includes("coleta.html")) {
-  console.log("Estamos na página de coleta!");
   icon = '../assets/img/pata_pin.png'
 }
 if (caminho.endsWith("index.html") || caminho === "/") {
-  console.log("Estamos na Home!");
   icon = 'assets/img/pata_pin.png'
 }
 
