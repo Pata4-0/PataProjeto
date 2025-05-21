@@ -10,11 +10,11 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 
 if (caminho.includes("coleta.html")) {
   console.log("Estamos na página de coleta!");
-  icon = 'assets/img/map/pata_pin.png'
+  icon = '../assets/img/map/pata_pin.png'
 }
 if (caminho.endsWith("index.html") || caminho === "/") {
   console.log("Estamos na Home!");
-  icon = '../assets/img/map/pata_pin.png'
+  icon = 'assets/img/map/pata_pin.png'
 }
 
 const pataIcon = L.icon({
