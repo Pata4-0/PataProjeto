@@ -1,5 +1,5 @@
 const GH_API_KEY = "cd44629d-657e-4406-90b0-38b0cfd42d21";
-
+const caminho = window.location.pathname;
 const map = L.map("map").setView([0, 0], 2);
 
 L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
@@ -7,6 +7,15 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     subdomains: 'abcd',
     maxZoom: 20
 }).addTo(map);
+
+if (caminho.includes("coleta.html")) {
+  console.log("Estamos na página de coleta!");
+  icon = 'assets/img/map/pata_pin.png'
+}
+if (caminho.endsWith("index.html") || caminho === "/") {
+  console.log("Estamos na Home!");
+  icon = '../assets/img/map/pata_pin.png'
+}
 
 const pataIcon = L.icon({
     iconUrl: '../assets/img/pata_pin.png',
