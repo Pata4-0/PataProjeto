@@ -9,7 +9,7 @@ L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
 }).addTo(map);
 
 const pataIcon = L.icon({
-    iconUrl: '/assets/img/pata_pin.png',
+    iconUrl: '../assets/img/pata_pin.png',
     iconSize: [38, 38],
     iconAnchor: [19, 38],
     popupAnchor: [0, -38]
