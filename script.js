@@ -18,7 +18,7 @@ if (caminho.endsWith("index.html") || caminho === "/") {
 }
 
 const pataIcon = L.icon({
-    iconUrl: '../assets/img/pata_pin.png',
+    iconUrl: icon,
     iconSize: [38, 38],
     iconAnchor: [19, 38],
     popupAnchor: [0, -38]
