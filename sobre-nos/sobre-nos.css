@@ -122,7 +122,11 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
 
+.ser-voluntario:hover {
+    color: #80BF90;
+    transition: 0.3s;
 }
 
 @media (max-width: 500px) {
