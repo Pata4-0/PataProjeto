@@ -65,6 +65,15 @@ header {
   border-radius: 0px 40px;
 }
 
+.lista-pontos-coleta{
+  margin-top: 1.5rem;
+}
+
+.lista-pontos-coleta a:hover{
+  color: #80BF90;
+  transition: 0.3s;
+}
+
   /* Responsividade */
 
   @media screen and (max-width: 1180px){
