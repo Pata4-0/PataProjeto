@@ -332,6 +332,12 @@ header {
   gap: 3rem;
 }
 
+.img-relato{
+  width: 60px;
+  height: 50px;
+  border-radius: 60%;
+}
+
 .depoimento{
   padding: 1.5rem;
   max-width: 350px;
